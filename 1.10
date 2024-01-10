@@ -1,0 +1,151 @@
+#include <stdio.h>  // c언어 제공 내장 함수, 문법 파일 참조
+
+
+//main 함수
+int main(void)
+{
+
+
+	// 변수를 반드는 방법 (선언하는 방법)
+	//자료형 변수 이용
+	//선언 예시
+	// int a;
+	// int b;
+
+
+	// 초기값을 부여하여 변수 선언
+    // 자료형 변수 이름 = 조건값;
+
+	//int a = 10;
+	//int b = 20;
+	//int c = a + b;
+
+	//a = 2; // 이미 선언된 변수는 접근하는 것에 있어 자료형 명시가 불필요하다
+	//printf("%d", a);
+
+
+	// 여러가지 연산자
+	// 더하기 : +
+	// 빼기 : -
+	// 곱하기 : *
+	// 나누기 : / 
+	// 몫 : //
+	// 나머지 : %
+
+	/*int a = 10;
+	int b = 32;
+	int c = 12;
+
+	a  + b;
+	a  -  b;
+	a  *  b;
+	a  /  b;*/
+
+// 출력함수 printf
+	//printf("출력할 내용");
+
+//	printf("hello world!");
+
+	//int a = 2;
+	//int b = 9;
+
+	//printf("%d", a + b);
+
+	// % format
+	
+//int a = 10;
+//		int b = 20; /*
+//	printf("a + b=%d", a + b);
+//		printf("a - b =%d", a - b);
+//		printf("a * b = %d", a * b);
+//		printf("a / b = %d", a / b);
+//	*/
+//		printf(" a %% b = %d", a% b);
+
+	// 자료형
+	// int : 정수형
+	// float, double : 실수형
+	// char : 문자형
+	// string : 문자열
+	// bool : 이진형, 논리형 (true, false)
+	
+	// 자료형 크기 반환 함수
+	// sizeof()
+	/*printf("%d", sizeof(10));*/ // 4 출력
+	
+	//format 타입
+	//%d : 정수형
+	// %f : 실수형
+	// %c : 문자형
+	// %s : 문자열
+
+
+	//형변환
+	//float a = 2.214;
+	//	int b = (int)a;
+	//	printf(" %d %d ", a, b);
+	//	printf(" %f %f ", a, b);
+	//	printf ( " %f %d",a, b);
+
+
+	//학습문제 : 임의의 값을 담은 두 변수 a,b를 선언하고 a 를 b로 나눈 값을 이용하여 검산식을 출력한다
+	// ex) a : 8, b : 3
+	// 2(몫) 3(b) 2(나머지) 8(a)
+
+	/*int a = 10;
+	int b = 3;
+	printf(" %d", a /b);
+	printf(" %d", a % b);
+	printf(" %d", b % a);
+	printf(" %d", b / a);
+
+	printf("%d(몫) * %d (b) + %d (나머지) = %d(a)", (int)a / b, a % b, a);*/
+
+
+	// 논리 연산자
+	// > , < 
+// >=, <=
+// == 서로 같다
+// != 서로 다르다
+
+// 복합 논리 연산자
+// 조건 1 && 조건2, 조건1 || 조건2 ~~
+//&& : and 두 조건이 모두 참이여야 함
+// ||:or 어느 하나라도 참이라면 참
+// ! : not 참값 반전
+
+//서포트
+// <<,>>
+
+//int a = 9;
+//int b = 1;
+//
+//printf("a > b , result : %d ", a > b);
+//printf("a < b , result : %d ", a < b);
+//printf("a >=b , result : %d ", a >=b);
+//printf("a<=b , result : %d ", a <=b);
+//printf("a ==b , result : %d ", a ==b);
+//printf("a !=b , result : %d ", a !=b);
+
+//printf("result : %d ", 6<<1);
+//printf("result : %d ", 9<< 4);
+
+
+// 학습문제 2 : 임의의값 a b c를 입력받는다
+// a,b를 이용하여 직각삼각형의 넓이, 사각형의넓이를 구한다.
+// a, b, c를 이용하여 정육면체의 부피와 겉넓이를 구한다
+// b와 c를 이용하여 원의 넓이를 구한다 ( 단, 원주율은 3.14로 계산하고 넓이는 실수형으로 출력한다)
+
+/*int a = 10;
+int b = 8;
+int c = 8;
+
+printf("%f", (a* b) / 2);
+printf("%f",a*b); 
+printf("%f", a* b* c);
+printf("%f", (b* c)* 3.14);
+*/
+
+
+
+}
