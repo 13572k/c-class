@@ -1,0 +1,148 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+	// 입력함수 
+	//scanf();
+	// 보안상의 문제로 에러를 발생, 따라서 아래 코드로 해결
+	//#define CRT_SECURE_NO_WARNINGS
+	/*int num1, num2;
+	scanf("%d", &num1 );
+	scanf("%d", &num2);
+	printf("%d", num1 + num2);*/
+
+	// 연습문제 : 두 값을 입력받아서, 사칙연산 값을 각 줄마다 출력
+	// ex)
+	// 2
+	// 3 
+	// 2 + 3 = ~
+	// 2 - 3 = ~
+	/*int num1, num2;
+	scanf("%d", &num1);
+	scanf("%d", &num2);
+	printf(" a + b = %d \n", num1 + num2);
+	printf(" a - b = %d \n", num1 - num2);
+	printf(" a * b = %d \n", num1 * num2);
+	printf(" a %% b = %d \n", num1 / num2);*/
+
+
+
+
+	// 제어문 : 조건문, 반복문
+
+	// 조건문 : if, else if, else
+
+	// 조건문의 경우의 수
+
+	/*
+	if (조건)
+	{
+	코드
+	}
+
+
+
+	if (조건)
+	{
+	코드
+	}
+	else
+	{
+	코드
+	}
+
+
+
+	if (조건1)
+	{
+	코드
+	}
+	else if (조건2)
+	{
+	코드
+	}
+
+
+
+		if (조건1)
+	{
+	코드
+	}
+	else if (조건2)
+	{
+	코드
+	}
+	else
+	{
+	코드
+	}
+
+
+	*/
+	//int a = 10;
+	//int b = 40;
+
+	//if (a > b)
+	//{
+	//	printf("trig");
+	//}
+	//else if (a + b > 50)
+	//{
+	//	printf("trig2");
+	//}
+	//else if (a > 5 && b == 40)
+	//{
+	//	printf("trig3");
+	//}
+	//if (a != 0 || b > 10) // 위의 trig if 문과는 따로 적용
+	//{
+	//	printf("trig4");
+	//}
+	// else if가 있다면 하나의 문장으로 봄
+	// if나 else if가 참이 아니라면 else가 있을때 else가 실행됨
+
+	// 연습문제 계산기
+// 두 정수와 문자 하나(기호)를 입력받는다
+// 두 정수를 입력받은 기호로 연산한 결과값과 식을 출력하시오
+
+	/*int num1, num2;
+	char  k;
+	scanf("%d %d %c", &num1, &num2, &k);
+
+	if (k == '+')
+	{
+		printf("%d", num1 + num2);
+	}
+	else if (k == '-')
+	{
+
+		printf("%d", num1 - num2);
+	}
+	else if (k == '*')
+	{
+		printf("%d", num1 * num2);
+	}
+	else if (k == '/')
+	{
+		printf("%d", num1 / num2);
+
+	}*/
+
+//정수값 하나를 입력받는다
+// 이 수가 홀수인지 짝수인지 판별하여
+// 홀수라면 "odd" , 짝수라면 "even"을 출력한다
+
+//int a;
+//scanf("%d", &a);
+//if (a % 2 == 1)
+//{
+//	printf("odd");
+//}
+//if (a % 2 == 0)
+//{
+//	printf("even");
+//}
+
+
+}
