@@ -1,0 +1,161 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main(void)
+{
+	//입력함수
+	//scanf("");
+	/*int num;
+	scanf("%d", &num);*/
+	//int n1 , n2 ,n3;
+	//scanf(" %d %d %d", &n1, &n2, &n3);
+	//printf("%d", n1 + n2 + n3);
+
+	//두 정수값을 입력받는다.
+	//아래와 같이 출력한다.
+//ex)
+	//5 2
+	//// 5 + 2 = 7
+	//int a, b;
+	//scanf("%d %d", &a , &b);
+	//	printf("a + b == %d \n", a + b);
+	//	printf("a - b == %d \n", a - b);
+	//	printf("a * b == %d \n", a * b);
+	//	printf("a % b == %d \n", a % b)
+
+
+	//제어문: 조건문, 반복문
+	//조건문 : if else oneii	
+
+	//int a = 1 - ;
+	//int b - 20[
+	//	ig(a < b);
+	//]  
+
+
+
+	// 두 정수와 하나의 문자 값을 입력받아 계산하여 출력하는 문제
+	// 정수 하나를 입력받아서 그 수가 홀수라면 "odd", 짝수라면 evenn을 출력하는 문제
+	// 0 ~ 100 사이의 정수를 입력하면, 90 ~ 1000 :;a, 5, 70~ 79
+
+
+	// 1번
+	/*int a, b;
+	char c;
+	scanf("%d %c %d", &a, &c, &b);
+	if (c == '+')
+	{
+		printf("a + b == %d \n", a + b);
+	}
+	else if (c == '-')
+	{
+		printf("a - b == %d \n", a - b);
+	}
+	else if (c == '*')
+	{
+		printf("a * b == %d \n", a * b);
+	}
+	else if (c == '/')
+	{
+		printf("a / c == %d \n", a / b);
+	}
+	else if (c == '%')
+	{
+		printf("a % b == %d \n", a % b);
+	}*/
+
+
+
+
+	// 2번
+//46
+//int a;
+//scanf("%d", &a);
+//if (a % 2 == 1)
+//{
+//	printf("odd");
+//}
+//else
+//{
+//	printf("even");
+//}
+
+
+
+
+//3번
+
+/*int a;
+scanf("%d", &a);
+if (a > 89 && a < 101)
+{
+	printf("A");
+}
+else if (a > 79 && a < 90)
+{
+	printf("B");
+}
+else if (a > 69 && a < 80)
+{
+	printf("C");
+}
+else if (a > 59 && a < 70)
+{
+	printf("D");
+}
+else if (a < 60)
+{
+	printf("F");
+}
+*/
+
+
+
+
+// 문제 4
+//
+//int a;
+//scanf("%d", &a);
+//if (a % 4 == 0 && a % 400 < 100 || a % 100 != 0)
+//{
+//	printf("윤년");
+//}
+//else
+//{
+//	printf("윤년이 아닙니다");
+//
+//}
+
+//반복문: for, while
+/* for (int i = 9; i >= 0; i--)
+{
+	printf("%d", i);
+}
+*/
+
+// 조건이 참이면 반복
+// 정해진 조건에 따라 반복
+//int a = 0;
+//while (0)
+//{
+//	printf("hello world!");
+//	 }
+
+// 다중반복문
+//int a = 0;
+//for (int i = 0; i < 10; i++)
+//{
+//	for (int j = 0; j < 10; j++)
+//	{
+//		printf("i:%d j:%d\n", i, j);
+//		a = a + i;
+//	}
+//}
+//printf("%d", a);
+//		 
+
+
+
+
+
+
+}
