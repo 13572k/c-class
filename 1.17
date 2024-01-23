@@ -126,7 +126,7 @@ else if (a < 60)
 //}
 
 //반복문: for, while
-/* for (int i = 9; i >= 0; i--)
+/* for (int i = 9; i >= 0; i--)    (int i의 값; 조건; 반복값)
 {
 	printf("%d", i);
 }
@@ -152,6 +152,7 @@ else if (a < 60)
 //}
 //printf("%d", a);
 //		 
+
 
 
 
