@@ -1,0 +1,71 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main(void)
+{
+	// 소수 판별
+	// 정수값 하나를 입력받는다.
+	// 이 값이 소수라면 prime을 출력, 그렇지 않다면 not prime을 출력
+	//int input;
+	//int flag = 0;
+	//scanf("%d", &input);
+	//for (int i = 2; i < input; i++) // i : 2 ~ input
+	//{
+	//	if (input % i == 0)
+	//	{
+	//		flag = 1;
+	//	printf(" not prime ");
+	//		break;
+	//}
+	//}
+	//if (flag == 0)
+	//{
+	//	printf("prime");
+	//}
+
+
+	// 구구단
+	// 2 * 1 = 2
+	// 2 * 2 = 4
+	// ~`
+	// 9 * 9 = 81
+
+	//for (int i = 1; i <= 9; i++)
+	//{
+	//	for (int j = 1; j <= 9; j++)
+	//	{
+	//		printf(" %d * %d == %d \n", i , j , i*j );
+	//	}
+	//}
+	//
+
+	// break, continue
+	/*for (int i = 0; i < 10; i++ )
+	{
+		if (i == 3)
+		{
+			break;
+		}
+		printf("%d", i);
+	}*/
+
+
+	//for (int i = 0; i < 10; i++)
+	//{
+	//	if (i == 3)
+	//	{
+	//		continue;
+	//	}
+	//	printf("%d", i);
+	//}
+
+
+	// 세자리 정수를 입력받는다.
+// 각 자리수의 합을 출려한다.
+
+	int a;
+	scanf("%d", &a);
+	if (a / 100 != 0)
+	{
+		printf("%d", (a / 100) + (a ) + (a / 1));
+	}
+	
