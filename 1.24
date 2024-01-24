@@ -1,0 +1,156 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+
+int main(void)
+{
+	// 소수 판별
+	// 정수값 하나를 입력받는다
+	// 이 값이 소수라면 prime을 출력, 아니라면 not prime을 출력
+
+	//int a;
+	//int b = 0;
+	//scanf("%d", &a);
+	//for (int i = 2; i < a; i++)
+	//{
+	//	if (a % i == 0)
+	//	{
+	//		int b = 1;
+	//		printf(" not prime ");
+	//		break;
+	//	}
+	//}
+	//if (b == 0)
+	//{
+	//	printf("prime");
+	//}
+
+	// 50까지 정수중에 소수를 모두 출력한다
+	/*int flag = 0;
+	for (int j = 1; j <= 50; j++)
+	{
+		int flag = 0;
+		for (int i = 2; i < j; i++)
+		{
+			if (j % i == 0)
+			{
+				flag = 1;
+				printf("%d is not prime \n", j);
+				break;
+			}
+		}
+		if (flag == 0)
+		{
+			printf("%d is not prime\n", j);
+		}
+	}*/
+
+
+
+	// 구구단
+	//for (int i = 1; i <= 9; i++)
+	//{
+	//	for (int j = 1; j <= 9; j++)
+	//	{
+	//		printf(" %d * %d = %d \n", i , j , i*j );
+	//	}
+	//}
+
+
+
+	//for (int i = 1; i <= 9; i++)
+	//{
+	// printf("~~~~~~~%d단~~~~~~~~", i);
+	//	for (int j = 1; j <= 9; j++)
+	//	{
+	//		printf(" %d * %d = %d \n", i , j , i*j );
+	//	}
+	//}
+
+
+
+// 세자리정수를 입력받는다
+// 각 자리수의 합을 출력한다
+
+ //int num;
+ //  scanf("%d",&num);
+	//   int sum = 0;
+	//   while(num != 0)
+	//   for (int i = 0; i < 3; i++)
+	//   {
+ //	   sum += num % 10;
+	//   num = num / 10;
+ //      }
+ //  printf("%d", sum);
+
+
+
+	//int a;
+	//scanf("%d", &a);
+
+	//printf("%d", (a / 100) + ((a - (a / 100) * 100) / 10) + (a - (a / 100) * 100) - (((a - (a / 100) * 100) / 10) * 10) / 1);
+
+	
+	
+
+	//피보나치 수열
+	// 100번째 수까지 출력
+
+	//int num = 1;
+	//int sum = 0;
+	//int temp = 0;
+	//for (int i = 0; i < 100; i++)
+	//{
+	//	
+	//	printf("%d\n", num);
+	//	temp = num;
+	//	num = num + sum;
+	//	sum = temp;
+	//}
+
+	
+// break, continue
+//for (int i = 0; i < 10; i++)
+//{
+//	printf("%d\n", i);
+//	if (i == 5)
+//	{
+//		printf("trig");
+//		break;
+//	}
+//}
+
+//for (int i = 0; i < 10; i++)
+//{
+//	if (i == 5)
+//	{
+//		printf("trig");
+//		continue;
+//	}
+//	printf("%d\n", i);
+//}
+//
+
+//문자열 연산
+
+
+//탑쌓기
+//
+//for (int i = 0; i <= 4; i++)
+//{
+//	for (int b = i; b >= 0; b--) {
+//		printf("*");
+//	}
+//	printf("\n");
+
+for (int i = 5; i <= 0; i--)
+{
+	for (int b = i; b < 0; b--) {
+		printf("*");
+	}
+	printf("\n");
+
+}
+
+
+}
