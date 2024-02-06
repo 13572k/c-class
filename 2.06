@@ -1,0 +1,63 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <math.h>
+int main(void)
+{
+
+	//int a, b;
+	//scanf("%d %d", &a, &b);
+	//
+
+	//if (a > 0 && b > 0)
+	//{
+	//	printf("제 1 사분면");
+	//}
+	//if (a > 0 && b < 0)
+	//{
+	//	printf("제 4 사분면");
+	//}
+	//if (a < 0 && b < 0)
+	//{
+	//	printf("제 3 사분면");
+	//}
+	//if (a < 0 && b > 0)
+	//{
+	//	printf("제 2 사분면");
+	//}
+
+		/*int H, M;
+		scanf("%d %d", &H, &M);
+
+		M = M - 45;
+		if (M < 0) {
+			M = M + 60;
+			H = H - 1;
+
+			if (H < 0) H = 23;
+		}
+
+		printf("%d %d", H, M);*/
+
+
+
+
+	//int h, m, n;
+	//scanf("%d %d %d", & h, &m, &n);
+
+	//int j = m + n;
+	//if (j > 59)
+	//{
+	//	m = m + n - 60;
+	//	h = h + 1;
+	//}
+	//if (h >= 24)
+	//{
+	//	h = 0;
+	//}
+	//printf("%d %d", h, m);
+
+
+
+
+
+}
