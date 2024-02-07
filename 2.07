@@ -1,0 +1,169 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+
+int main(void)
+{
+
+	// 14681번
+	 
+	//int a, b;
+	//scanf("%d %d", &a, &b);
+	//if (a > 0 && b > 0){
+	//	printf("제 1 사분면");}
+	//if (a > 0 && b < 0){
+	//	printf("제 4 사분면");}
+	//if (a < 0 && b < 0){
+	//	printf("제 3 사분면");}
+	//if (a < 0 && b > 0){
+	//	printf("제 2 사분면");}
+
+
+	//2884번
+
+		/*int h, m;
+		scanf("%d %d", &h, &m);
+
+		m = m - 45;
+		if (m < 0) {
+			m = m + 60;
+			h = h - 1;
+			if (h < 0) h = 23;}
+		printf("%d %d", h, m);*/
+
+
+	//2525번
+	 
+	/*int h, m, n;
+	scanf("%d %d %d", & h, &m, &n);
+
+	int j = m + n;
+	if (j > 59){
+		m = m + n - 60;
+		h = h + 1;}
+	if (h >= 24){
+		h = 0;}
+	printf("%d %d", h, m);*/
+
+
+
+
+	// 2480번
+
+	/*int a, b, c;
+	scanf("%d %d %d", &a, &b, &c);
+
+	if (a == b && b == c){
+		printf("%d", 10000 + a * 1000);	}
+	else if (a == b || a == c){
+		printf("%d", 1000 + a * 100);}
+	else if (b == c){
+		printf("%d", 1000 + b * 100);}
+	else if (a != b != c){
+		if (a >= b && a >= c){
+			printf("%d", a * 100);}
+		if (b >= a && b >= c){
+			printf("%d", b * 100);}
+		if (c >= a && c >= b){
+	        printf("%d", c * 100);}
+	}*/
+
+
+
+	// 약수의 합
+
+	/*int n, r;
+	r = 0;
+	scanf("%d", &n);
+	for (int i = 1; i <= n; i++){
+		if (n % i == 0)
+		r = r + i;}
+	printf("%d", r);*/
+
+	// 하샤드수
+
+	/*int n;
+	scanf("%d", &n);
+
+	if (n > 0){
+		if (n % ((n / 10) + (n % 10)) == 0)
+			printf("true");
+		else printf("false");}
+	else {
+		printf("false");}*/
+
+
+
+
+
+	//// 배열 array
+	///*자료형 배열이름 [크기];*/
+	//int ary[10] = { 1,2,3,4 };// 값을 초기화하여 배열 생성
+	//printf("%d\n", ary[21]);
+	//for (int i = 0; i < sizeof(ary); i++)
+	//{
+	//	printf("%d \n", ary[i]);
+	//}
+	//printf("%d", sizeof(ary)); // 자료형 크기 x 배열 크기
+
+
+
+//연습문제 : 첫번째 줄에 임의의 정수값 n을 직접 입력받는다
+// 두번째 줄 부터 임의의 정수값 n개를 입력받는다.
+// 입력받은 값들을 배열에 저장한다.
+// 배열안의 모든 수의 합을 구한다.
+
+//int n;
+//int j = 0;
+//scanf("%d", &n);
+//for (int i = 1; i <= n; i++)
+//{
+//	j = i + j;
+//}
+//printf("%d", j);
+
+
+//int a;
+//int b;
+//scanf("%d", &a);
+//int n = 1000000, j = -1000000;
+//for (int i = 0; i < a; i++) {
+//	scanf("%d", &b);
+//	if (j < b) { j = b; }
+//	if (n > b) { n = b; }}
+//printf("%d %d", n, j);
+
+
+
+//int a, b, c, d, e, f;
+//scanf("%d %d %d %d %d %d", &a, &b, &c, &d, &e, &f);
+//
+//printf("%d %d %d %d %d %d", 1 - a, 1 - b, 2 - c, 2 - d, 2 - e, 8 - f);
+
+
+
+
+
+//char a[100];
+//
+//scanf("%s", a);
+//int l = strlen(a);
+//int b = 0;
+//for (int i = 0; i < l / 2; i++){
+//	if (a[i] == a[l - i - 1]) {
+//		b++;}}
+//if (b == l / 2){
+//	printf("1");}
+//else printf("0");
+
+
+
+
+
+
+
+
+
+
+}
